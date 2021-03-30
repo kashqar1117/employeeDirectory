@@ -1,6 +1,7 @@
 import React , { useState, useEffect} from 'react'
 // import './App.css';
 import Datatable from './datatable'
+import './style.css'
 
  function App() {
   const [data, setData] = useState([])
@@ -34,11 +35,11 @@ import Datatable from './datatable'
   },[])
   return (
     <div>
-      <h1>Employee Directory</h1>
-      <h2>Search by name</h2>
+      <h1 className="headerDiv">Employee Directory</h1>
+      <h2 className="headerDiv">Search by name</h2>
 
 
-    <div>
+    <div  className="input" >
       <input type='text' value={query} onChange={(e)=> setQuery(e.target.value)}/>
       </div>
 
