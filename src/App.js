@@ -34,9 +34,13 @@ import './style.css'
     .then(json => setData(json.results))
   },[])
   return (
+   
     <div>
+
+      <header>
       <h1 className="headerDiv">Employee Directory</h1>
       <h2 className="headerDiv">Search by name</h2>
+      </header>
 
 
     <div  className="input" >

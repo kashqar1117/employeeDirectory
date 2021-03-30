@@ -1,7 +1,16 @@
-.headerDiv  { 
+header  { 
 text-align: center;
+background-color:thistle;
+border-radius: 5%;
+
 }
 
 .input{
     text-align: center;
+}
+.personDiv{
+ 
+    
+  
+
 }

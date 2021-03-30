@@ -3,7 +3,7 @@ import React from 'react';
 export default function Datatable({data})
 {
     return(
-        <div>
+        <div className="personDiv" style={{textAlign:'center'}}>
             {
                 data.map((person, index)=>{
                     return(
