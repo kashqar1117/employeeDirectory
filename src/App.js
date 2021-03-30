@@ -34,6 +34,8 @@ import Datatable from './datatable'
   },[])
   return (
     <div>
+      <h1>Employee Directory</h1>
+      <h2>Search by name</h2>
 
 
     <div>
