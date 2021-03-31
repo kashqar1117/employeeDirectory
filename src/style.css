@@ -9,6 +9,8 @@ border-radius: 5%;
     text-align: center;
 }
 .personDiv{
+    display: flex;
+    justify-content: flex-start;
  
     
   
